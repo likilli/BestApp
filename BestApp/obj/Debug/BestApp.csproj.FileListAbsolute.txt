@@ -1,1 +1,2 @@
 C:\Users\Olimpiada\Documents\GitHub\BestApp\BestApp\bin\Debug\BestApp.exe.config
+C:\Users\Vita\Documents\GitHub\BestApp\BestApp\bin\Debug\BestApp.exe.config
