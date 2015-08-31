@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.DelButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // DelButton
+            // 
+            this.DelButton.Location = new System.Drawing.Point(76, 80);
+            this.DelButton.Name = "DelButton";
+            this.DelButton.Size = new System.Drawing.Size(111, 30);
+            this.DelButton.TabIndex = 0;
+            this.DelButton.Text = "Delete";
+            this.DelButton.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.DelButton);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button DelButton;
     }
 }
 
